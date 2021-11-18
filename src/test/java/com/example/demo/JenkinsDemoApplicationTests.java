@@ -19,7 +19,7 @@ public class JenkinsDemoApplicationTests{
 	@Test
 	void add() throws Exception {
 		
-		mvc.perform(get("/add")).andExpect(status().isOk());
+		mvc.perform(get("/")).andExpect(status().isOk());
 		
 	}
 	@Test
