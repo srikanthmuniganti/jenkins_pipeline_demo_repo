@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ControllerClass {
 	
-	@GetMapping("/add")
+	@GetMapping("/")
 	@ResponseBody
 	public int add()
 	{
